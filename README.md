@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
-# Função para calcular a resistência
+#  Função para calcular a resistência
 def calcular_resistencia(event=None):
     try:
         tensao = float(entry_tensao_res.get())
