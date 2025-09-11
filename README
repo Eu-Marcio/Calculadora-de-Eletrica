@@ -1,0 +1,47 @@
+#  Calculadora Elétrica com Tkinter
+
+![Screenshot da Calculadora] Um projeto de calculadora de desktop desenvolvida em Python com a biblioteca Tkinter, focada em cálculos elétricos essenciais baseados na Lei de Ohm e em potência elétrica. A aplicação possui uma interface gráfica intuitiva com tema escuro, facilitando o uso para estudantes, hobbistas e profissionais da área de eletrônica.
+
+## ✨ Funcionalidades
+
+O programa permite ao usuário alternar facilmente entre cinco tipos de cálculos fundamentais:
+
+* **Cálculo de Resistência (Ω):** Determina a resistência com base na tensão (V) e na corrente (A).
+* **Cálculo de Tensão (V):** Determina a tensão com base na resistência (Ω) e na corrente (A).
+* **Cálculo de Corrente (A):** Determina a corrente com base na tensão (V) e na resistência (Ω).
+* **Cálculo de Corrente a partir da Potência:** Calcula a corrente (A) com base na potência (W) e na tensão (V).
+* **Cálculo de Resistor para Queda de Tensão:** Ajuda a encontrar o valor do resistor necessário para obter uma queda de tensão específica em um circuito.
+
+### Outras Características:
+
+* **Cálculo de Potência (W):** A maioria dos cálculos exibe simultaneamente a potência dissipada no circuito.
+* **Interface Gráfica Intuitiva:** Utiliza radio buttons para uma navegação clara entre as diferentes calculadoras.
+* **Tema Escuro:** Interface moderna e confortável para longos períodos de uso.
+* **Formatação Automática:** O resultado da resistência é exibido em Ω, KΩ ou MΩ para melhor legibilidade.
+* **Tratamento de Erros:** Exibe mensagens de alerta caso valores não numéricos sejam inseridos.
+* **Usabilidade:** Permite realizar cálculos clicando no botão ou pressionando a tecla `Enter`.
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Python 3**
+* **Tkinter** (biblioteca padrão do Python para interfaces gráficas)
+
+## 🚀 Como Usar
+
+Para executar este projeto, siga os passos abaixo:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+    ```
+
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd nome-do-repositorio
+    ```
+
+3.  **Execute o script Python:**
+    (Como Tkinter é uma biblioteca padrão, não são necessárias instalações adicionais se você tiver o Python instalado).
+    ```bash
+    python nome_do_seu_arquivo.py
+    ```
